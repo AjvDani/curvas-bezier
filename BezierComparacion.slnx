@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/BezierApp/BezierApp.csproj" />
     <Project Path="src/BezierCore/BezierCore.csproj" />
   </Folder>
 </Solution>
