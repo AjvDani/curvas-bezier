@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BezierCore\BezierCore.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Mediciones estables: compilar directamente con optimizacion completa (sin JIT escalonado) -->
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+
+</Project>
