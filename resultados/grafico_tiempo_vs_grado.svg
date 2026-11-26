@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="white"/>
+<text x="285" y="24" text-anchor="middle" font-size="15" font-weight="bold">Tiempo vs. grado (m = 1000 muestras)</text>
+<line x1="80" y1="382" x2="570" y2="382" stroke="#e3e3e3"/>
+<text x="74" y="386" text-anchor="end">0</text>
+<line x1="80" y1="297.5" x2="570" y2="297.5" stroke="#e3e3e3"/>
+<text x="74" y="301.5" text-anchor="end">5</text>
+<line x1="80" y1="213" x2="570" y2="213" stroke="#e3e3e3"/>
+<text x="74" y="217" text-anchor="end">10</text>
+<line x1="80" y1="128.5" x2="570" y2="128.5" stroke="#e3e3e3"/>
+<text x="74" y="132.5" text-anchor="end">15</text>
+<line x1="80" y1="44" x2="570" y2="44" stroke="#e3e3e3"/>
+<text x="74" y="48" text-anchor="end">20</text>
+<line x1="80" y1="44" x2="80" y2="382" stroke="#f0f0f0"/>
+<text x="80" y="398" text-anchor="middle">2</text>
+<line x1="85" y1="44" x2="85" y2="382" stroke="#f0f0f0"/>
+<text x="85" y="398" text-anchor="middle">3</text>
+<line x1="95" y1="44" x2="95" y2="382" stroke="#f0f0f0"/>
+<text x="95" y="398" text-anchor="middle">5</text>
+<line x1="110" y1="44" x2="110" y2="382" stroke="#f0f0f0"/>
+<text x="110" y="398" text-anchor="middle">8</text>
+<line x1="120" y1="44" x2="120" y2="382" stroke="#f0f0f0"/>
+<text x="120" y="398" text-anchor="middle">10</text>
+<line x1="145" y1="44" x2="145" y2="382" stroke="#f0f0f0"/>
+<text x="145" y="398" text-anchor="middle">15</text>
+<line x1="170" y1="44" x2="170" y2="382" stroke="#f0f0f0"/>
+<text x="170" y="398" text-anchor="middle">20</text>
+<line x1="220" y1="44" x2="220" y2="382" stroke="#f0f0f0"/>
+<text x="220" y="398" text-anchor="middle">30</text>
+<line x1="320" y1="44" x2="320" y2="382" stroke="#f0f0f0"/>
+<text x="320" y="398" text-anchor="middle">50</text>
+<line x1="445" y1="44" x2="445" y2="382" stroke="#f0f0f0"/>
+<text x="445" y="398" text-anchor="middle">75</text>
+<line x1="570" y1="44" x2="570" y2="382" stroke="#f0f0f0"/>
+<text x="570" y="398" text-anchor="middle">100</text>
+<rect x="80" y="44" width="490" height="338" fill="none" stroke="#555"/>
+<text x="325" y="426" text-anchor="middle">Grado n</text>
+<text transform="translate(18 213) rotate(-90)" text-anchor="middle">Tiempo medio (ms)</text>
+<polyline points="80,379.38 85,377.28 95,373.79 110,369.07 120,360.56 145,354.26 170,342.27 220,315.49 320,286.19 445,229.99 570,183.86" fill="none" stroke="#1e64e6" stroke-width="2.2"/>
+<circle cx="80" cy="379.38" r="3.2" fill="#1e64e6"/>
+<circle cx="85" cy="377.28" r="3.2" fill="#1e64e6"/>
+<circle cx="95" cy="373.79" r="3.2" fill="#1e64e6"/>
+<circle cx="110" cy="369.07" r="3.2" fill="#1e64e6"/>
+<circle cx="120" cy="360.56" r="3.2" fill="#1e64e6"/>
+<circle cx="145" cy="354.26" r="3.2" fill="#1e64e6"/>
+<circle cx="170" cy="342.27" r="3.2" fill="#1e64e6"/>
+<circle cx="220" cy="315.49" r="3.2" fill="#1e64e6"/>
+<circle cx="320" cy="286.19" r="3.2" fill="#1e64e6"/>
+<circle cx="445" cy="229.99" r="3.2" fill="#1e64e6"/>
+<circle cx="570" cy="183.86" r="3.2" fill="#1e64e6"/>
+<line x1="584" y1="54" x2="610" y2="54" stroke="#1e64e6" stroke-width="2.5"/>
+<text x="616" y="58">Bernstein (Math.Pow)</text>
+<polyline points="80,381.49 85,381.31 95,380.59 110,378.45 120,378.51 145,372.9 170,364.42 220,356.54 320,300.51 445,222.95 570,105.37" fill="none" stroke="#dc1e1e" stroke-width="2.2"/>
+<circle cx="80" cy="381.49" r="3.2" fill="#dc1e1e"/>
+<circle cx="85" cy="381.31" r="3.2" fill="#dc1e1e"/>
+<circle cx="95" cy="380.59" r="3.2" fill="#dc1e1e"/>
+<circle cx="110" cy="378.45" r="3.2" fill="#dc1e1e"/>
+<circle cx="120" cy="378.51" r="3.2" fill="#dc1e1e"/>
+<circle cx="145" cy="372.9" r="3.2" fill="#dc1e1e"/>
+<circle cx="170" cy="364.42" r="3.2" fill="#dc1e1e"/>
+<circle cx="220" cy="356.54" r="3.2" fill="#dc1e1e"/>
+<circle cx="320" cy="300.51" r="3.2" fill="#dc1e1e"/>
+<circle cx="445" cy="222.95" r="3.2" fill="#dc1e1e"/>
+<circle cx="570" cy="105.37" r="3.2" fill="#dc1e1e"/>
+<line x1="584" y1="76" x2="610" y2="76" stroke="#dc1e1e" stroke-width="2.5"/>
+<text x="616" y="80">De Casteljau</text>
+<polyline points="80,381.41 85,381.29 95,380.79 110,380.34 120,379.81 145,378.67 170,375 220,373.41 320,369.32 445,362.03 570,353.19" fill="none" stroke="#2e9e44" stroke-width="2.2" stroke-dasharray="6 4"/>
+<circle cx="80" cy="381.41" r="3.2" fill="#2e9e44"/>
+<circle cx="85" cy="381.29" r="3.2" fill="#2e9e44"/>
+<circle cx="95" cy="380.79" r="3.2" fill="#2e9e44"/>
+<circle cx="110" cy="380.34" r="3.2" fill="#2e9e44"/>
+<circle cx="120" cy="379.81" r="3.2" fill="#2e9e44"/>
+<circle cx="145" cy="378.67" r="3.2" fill="#2e9e44"/>
+<circle cx="170" cy="375" r="3.2" fill="#2e9e44"/>
+<circle cx="220" cy="373.41" r="3.2" fill="#2e9e44"/>
+<circle cx="320" cy="369.32" r="3.2" fill="#2e9e44"/>
+<circle cx="445" cy="362.03" r="3.2" fill="#2e9e44"/>
+<circle cx="570" cy="353.19" r="3.2" fill="#2e9e44"/>
+<line x1="584" y1="98" x2="610" y2="98" stroke="#2e9e44" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="616" y="102">Bernstein incremental</text>
+</svg>

@@ -6,8 +6,10 @@ Comparación del rendimiento, la estabilidad numérica y la complejidad de dos m
 |---|---|
 | Código fuente (algoritmos) | `src/BezierCore`: no usa ninguna API gráfica |
 | Aplicación funcional (WinForms) | `src/BezierApp` |
-
-> Proyecto en construcción: el banco de pruebas, los resultados y el informe técnico (Parte 3) se agregan en la siguiente rama.
+| Banco de pruebas (Stopwatch, ≥10 repeticiones) | `src/BezierBenchmark` |
+| Resultados (CSV, tablas, gráficos SVG) | `resultados/` |
+| Informe técnico (Word, con la carátula ESPE) | `docs/Informe_Tecnico_Bezier.docx` |
+| Informe técnico (Markdown) | `docs/Informe_Tecnico.md` |
 
 Requisito: .NET SDK 10.
 
@@ -21,6 +23,12 @@ Abrir la aplicación gráfica:
 
 ```powershell
 dotnet run -c Release --project src/BezierApp
+```
+
+Ejecutar los experimentos (carpeta de salida y número de repeticiones):
+
+```powershell
+dotnet run -c Release --project src/BezierBenchmark -- resultados 30
 ```
 
 ## Uso de la aplicación

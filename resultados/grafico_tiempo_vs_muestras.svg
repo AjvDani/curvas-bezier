@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="white"/>
+<text x="285" y="24" text-anchor="middle" font-size="15" font-weight="bold">Tiempo vs. número de muestras (escala log-log)</text>
+<line x1="80" y1="382" x2="570" y2="382" stroke="#e3e3e3"/>
+<text x="74" y="386" text-anchor="end">0.001</text>
+<line x1="80" y1="325.67" x2="570" y2="325.67" stroke="#e3e3e3"/>
+<text x="74" y="329.67" text-anchor="end">0.01</text>
+<line x1="80" y1="269.33" x2="570" y2="269.33" stroke="#e3e3e3"/>
+<text x="74" y="273.33" text-anchor="end">0.1</text>
+<line x1="80" y1="213" x2="570" y2="213" stroke="#e3e3e3"/>
+<text x="74" y="217" text-anchor="end">1</text>
+<line x1="80" y1="156.67" x2="570" y2="156.67" stroke="#e3e3e3"/>
+<text x="74" y="160.67" text-anchor="end">10</text>
+<line x1="80" y1="100.33" x2="570" y2="100.33" stroke="#e3e3e3"/>
+<text x="74" y="104.33" text-anchor="end">100</text>
+<line x1="80" y1="44" x2="570" y2="44" stroke="#e3e3e3"/>
+<text x="74" y="48" text-anchor="end">1000</text>
+<line x1="80" y1="44" x2="80" y2="382" stroke="#f0f0f0"/>
+<text x="80" y="398" text-anchor="middle">100</text>
+<line x1="243.33" y1="44" x2="243.33" y2="382" stroke="#f0f0f0"/>
+<text x="243.33" y="398" text-anchor="middle">1000</text>
+<line x1="406.67" y1="44" x2="406.67" y2="382" stroke="#f0f0f0"/>
+<text x="406.67" y="398" text-anchor="middle">1e4</text>
+<line x1="570" y1="44" x2="570" y2="382" stroke="#f0f0f0"/>
+<text x="570" y="398" text-anchor="middle">1e5</text>
+<rect x="80" y="44" width="490" height="338" fill="none" stroke="#555"/>
+<text x="325" y="426" text-anchor="middle">Muestras m</text>
+<text transform="translate(18 213) rotate(-90)" text-anchor="middle">Tiempo medio (ms)</text>
+<polyline points="80,298.42 194.17,256.37 243.33,234.81 357.5,199.78 406.67,183.47 520.83,145.17 570,132.42" fill="none" stroke="#1e64e6" stroke-width="2.2"/>
+<circle cx="80" cy="298.42" r="3.2" fill="#1e64e6"/>
+<circle cx="194.17" cy="256.37" r="3.2" fill="#1e64e6"/>
+<circle cx="243.33" cy="234.81" r="3.2" fill="#1e64e6"/>
+<circle cx="357.5" cy="199.78" r="3.2" fill="#1e64e6"/>
+<circle cx="406.67" cy="183.47" r="3.2" fill="#1e64e6"/>
+<circle cx="520.83" cy="145.17" r="3.2" fill="#1e64e6"/>
+<circle cx="570" cy="132.42" r="3.2" fill="#1e64e6"/>
+<line x1="584" y1="54" x2="610" y2="54" stroke="#1e64e6" stroke-width="2.5"/>
+<text x="616" y="58">Bernstein n=3</text>
+<polyline points="80,342.19 194.17,306.34 243.33,288.1 357.5,248.94 406.67,224.65 520.83,190.9 570,172.35" fill="none" stroke="#dc1e1e" stroke-width="2.2"/>
+<circle cx="80" cy="342.19" r="3.2" fill="#dc1e1e"/>
+<circle cx="194.17" cy="306.34" r="3.2" fill="#dc1e1e"/>
+<circle cx="243.33" cy="288.1" r="3.2" fill="#dc1e1e"/>
+<circle cx="357.5" cy="248.94" r="3.2" fill="#dc1e1e"/>
+<circle cx="406.67" cy="224.65" r="3.2" fill="#dc1e1e"/>
+<circle cx="520.83" cy="190.9" r="3.2" fill="#dc1e1e"/>
+<circle cx="570" cy="172.35" r="3.2" fill="#dc1e1e"/>
+<line x1="584" y1="76" x2="610" y2="76" stroke="#dc1e1e" stroke-width="2.5"/>
+<text x="616" y="80">De Casteljau n=3</text>
+<polyline points="80,255.66 194.17,213.47 243.33,197.21 357.5,157.36 406.67,140.44 520.83,100.7 570,81.46" fill="none" stroke="#6aa0ff" stroke-width="2.2" stroke-dasharray="6 4"/>
+<circle cx="80" cy="255.66" r="3.2" fill="#6aa0ff"/>
+<circle cx="194.17" cy="213.47" r="3.2" fill="#6aa0ff"/>
+<circle cx="243.33" cy="197.21" r="3.2" fill="#6aa0ff"/>
+<circle cx="357.5" cy="157.36" r="3.2" fill="#6aa0ff"/>
+<circle cx="406.67" cy="140.44" r="3.2" fill="#6aa0ff"/>
+<circle cx="520.83" cy="100.7" r="3.2" fill="#6aa0ff"/>
+<circle cx="570" cy="81.46" r="3.2" fill="#6aa0ff"/>
+<line x1="584" y1="98" x2="610" y2="98" stroke="#6aa0ff" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="616" y="102">Bernstein n=20</text>
+<polyline points="80,276.42 194.17,242.45 243.33,224.86 357.5,185.92 406.67,168.74 520.83,129.27 570,112.06" fill="none" stroke="#ff8a65" stroke-width="2.2" stroke-dasharray="6 4"/>
+<circle cx="80" cy="276.42" r="3.2" fill="#ff8a65"/>
+<circle cx="194.17" cy="242.45" r="3.2" fill="#ff8a65"/>
+<circle cx="243.33" cy="224.86" r="3.2" fill="#ff8a65"/>
+<circle cx="357.5" cy="185.92" r="3.2" fill="#ff8a65"/>
+<circle cx="406.67" cy="168.74" r="3.2" fill="#ff8a65"/>
+<circle cx="520.83" cy="129.27" r="3.2" fill="#ff8a65"/>
+<circle cx="570" cy="112.06" r="3.2" fill="#ff8a65"/>
+<line x1="584" y1="120" x2="610" y2="120" stroke="#ff8a65" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="616" y="124">De Casteljau n=20</text>
+</svg>
