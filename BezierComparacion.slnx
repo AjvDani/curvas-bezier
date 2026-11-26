@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BezierCore/BezierCore.csproj" />
+  </Folder>
+</Solution>
