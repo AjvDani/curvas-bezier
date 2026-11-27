@@ -1,5 +1,7 @@
 # Informe técnico: evaluación de curvas de Bézier con polinomios de Bernstein y con el algoritmo de De Casteljau
 
+**Autores:** Jose Daniel Villa Andrango, Luis David Castillo Ganchozo, Paulo Alejandro Ramos Vilca
+
 **Pregunta de investigación:** ¿qué método de evaluación de curvas de Bézier es más eficiente y más estable numéricamente según las condiciones de ejecución?
 
 **Entorno de las pruebas:** C# / .NET 10.0.12 (Release, sin JIT escalonado), Windows 11 x64, 12 procesadores lógicos, `System.Diagnostics.Stopwatch` de alta resolución (10 MHz).
@@ -367,3 +369,7 @@ Los tiempos absolutos dependen del equipo. Las tendencias (cruce de rendimiento,
 - Farouki, R. T., y Rajan, V. T. (1987). On the numerical condition of polynomials in Bernstein form. *Computer Aided Geometric Design, 4*(3), 191–216.
 - Farouki, R. T. (2012). The Bernstein polynomial basis: A centennial retrospective. *Computer Aided Geometric Design, 29*(6), 379–419.
 - Higham, N. J. (2002). *Accuracy and Stability of Numerical Algorithms* (2.ª ed.). SIAM.
+
+## Repositorio del proyecto
+
+El código fuente, los resultados y este informe están disponibles en: <https://github.com/AjvDani/curvas-bezier.git>
